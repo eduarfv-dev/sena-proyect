@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Calificaciones</title>
+    <link rel="stylesheet" href="/modulo-profesor/styleregistrodecalificaciones.css">
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="back-button">Regresar</a>
+        <div class="sidebar">
+            <select>
+                <option>grupo</option>
+            </select>
+            <select>
+                <option>materia</option>
+            </select>
+            <button class="search-button">buscar</button>
+        </div>
+        <div class="main-content">
+            <h1>registro de calificaciones</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>apellidos</th>
+                        <th>nombres</th>
+                        <th>nota 1</th>
+                        <th>nota 2</th>
+                        <th>nota 3</th>
+                        <th>promedio</th>
+                        <th>observaciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><input type="number" min="0" max="10"></td>
+                        <td><input type="number" min="0" max="10"></td>
+                        <td><input type="number" min="0" max="10"></td>
+                        <td></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="buttons">
+                <button class="clear-button">limpiar</button>
+                <button class="save-button">guardar</button>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="/modulo-profesor/logousuario.png" alt="Profesor" class="profile-pic">
+            <span>profesor</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-image: url('/modulo-administrador/fondo.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: #0e688eb7; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.button-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%; 
+}
+
+.button-with-icon i {
+    font-size: 24px;
+    color: #333;
+}
+
+button {
+    flex-grow: 1; 
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.profile {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url('/modulo-administrador/logousuario.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.logout {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #666;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.logout:hover {
+    background-color: #555;
+}
